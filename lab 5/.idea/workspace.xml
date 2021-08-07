@@ -5,22 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6bd046-43b7-40b5-b344-2bc7c198ccc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab 6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/src/main/java/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/classes/MyServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/hello.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/hello/WEB-INF/classes/MyServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab 6/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/Lab6App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/controller/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/persist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/persist/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/service/StudentRepr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/java/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/main/resources/templates/student_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.1/src/test/java/com/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/Lab7Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/controller/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/persist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/persist/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/service/StudentRepr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/java/com/rifnur/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/main/resources/templates/student_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7.2/src/test/java/com/rifnur/lab7/Lab7ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/src/main/java/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/src/main/java/persist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/src/main/java/persist/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/src/main/java/service/StudentRepr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 7/src/main/java/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/target/classes/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/target/classes/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/target/hello.war" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/target/hello.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/target/hello/WEB-INF/classes/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/target/hello/WEB-INF/classes/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/target/hello/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/target/hello/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +103,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/lab6/SPRING1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../IdeaProjects/demo6" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
