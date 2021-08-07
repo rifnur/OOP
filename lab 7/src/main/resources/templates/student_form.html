@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/head.html :: head"/>
+
+<body>
+
+<nav th:replace="fragments/head.html :: navbar ('Students')"/>
+
+<div class="container">
+    <div class="row py-2">
+        <div class="col-12">
+            <form th:action="@{/student/update}" th:method="post" th:object="${student}">
+                <input type="hidden" th:field="*{id}" id="id" name="id">
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" th:field="*{name}" class="form-control" id="name" name="name" placeholder="Enter name">
+                    <p class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+                </div>
+
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" th:field="*{age}" class="form-control" id="age" name="age" placeholder="Enter user age">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" th:field="*{password}" class="form-control" id="password" name="password" placeholder="Enter password">
+                    <p class="text-danger" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+                </div>
+
+                <div class="form-group">
+                    <label>Matching password</label>
+                    <input type="password" th:field="*{matchingPassword}" class="form-control" id="matchingPassword" name="matchingPassword" placeholder="Enter matching password">
+                    <p class="text-danger" th:if="${#fields.hasErrors('matchingPassword')}" th:errors="*{matchingPassword}"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="roles">Roles</label>
+                    <select multiple class="form-control" id="roles" th:field="*{roles}" required>
+                        <option th:each="role : ${roles}"
+                                th:text="${role.name}"
+                                th:value="${role.id}"
+                                th:selected="${student.roles?.contains(role)}"></option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<th:block th:replace="fragments/footer.html :: scripts"/>
+
+</body>

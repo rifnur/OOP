@@ -1,0 +1,22 @@
+GET http://localhost:8080/api/v1/student/all
+Authorization: Basic max 123456
+###
+
+GET http://localhost:8080/api/v1/student/2
+Authorization: Basic max 123456
+###
+
+POST  http://localhost:8080/api/v1/student
+Content-Type: application/json
+Authorization: Basic max 123456
+
+{
+    "name": "student86",
+    "password": "456",
+    "age": 60
+}
+
+###
+POST  http://localhost:8080/api/v1/student/1/student?name=alex
+Authorization: Basic max 123456
+###
